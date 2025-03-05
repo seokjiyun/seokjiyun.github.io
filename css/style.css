@@ -314,7 +314,7 @@ header {
 
 .my-services {
   background-color: var(--clr-dark);
-  background-image: url(../img/skills-bg.jpg);
+  background-image: url(../img/back.png);
   background-size: cover;
   background-blend-mode: overlay;
   color: var(--clr-light);
