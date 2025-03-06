@@ -16,7 +16,7 @@
 
   --clr-light: #ffffff;
   --clr-dark: #303030;
-  --clr-accent: #16e0bd;
+  --clr-accent: #ff6347;
 
   --fs-h1: 3rem;
   --fs-h2: 2.25rem;
@@ -25,6 +25,7 @@
 
   --bs: 0.25em 0.25em 0.75em rgba(0, 0, 0, 0.25),
     0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
+    --ts-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
 
 /* With wider screens use differnt/bigger numbers */
@@ -251,6 +252,7 @@ header {
 .intro {
   position: relative;
   z-index: 2;
+  background: linear-gradient(120deg, var(--clr-accent), var(--clr-light));
 }
 
 .intro-bg {
