@@ -1,9 +1,3 @@
-/* make padding within widths rather calculating with total width? */
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 /* Custom Properties */
 :root {
   --ff-primary: "Source Sans 3", sans-serif;
